@@ -8,6 +8,7 @@ public class Input {
         float flt = sc.nextFloat();
         double dbl = sc.nextDouble();
         char ch = sc.next().charAt(0);
+        sc.close();
         
         System.out.println(num);
         System.out.println(str);

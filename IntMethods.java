@@ -40,7 +40,7 @@ public class IntMethods {
         
         String str = "1342";
         int num1 = Integer.parseInt(str);
-        int num2 = Integer.valueOf(str);
+        num1 = Integer.valueOf(str);
         
 
         System.out.println(num1);
