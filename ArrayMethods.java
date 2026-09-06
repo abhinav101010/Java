@@ -55,8 +55,6 @@ public class ArrayMethods {
         // Arrays.stream(arr1) - returns a stream of the array
         // Arrays.parallelStream(arr1) - returns a parallel stream of the array
         // Arrays.asList(arr1) - returns a fixed-size list backed by the array
-        // Arrays.copyOfRange(arr1, start, end) - copies a range of the array
-        // Arrays.copyOf(arr1, newLength) - copies the array
         // Arrays.compare(arr1, arr2) - compares two arrays for equality
         // Arrays.reverse(arr1) - reverses the array
 
@@ -68,8 +66,8 @@ public class ArrayMethods {
         System.out.println(Arrays.stream(arr).max().getAsInt());
         System.out.println(Arrays.stream(arr).average().getAsDouble());
         
-        List<String> list = Arrays.asList(arr).stream().map(String::valueOf).toList();
-        System.out.println(list);
+        List<String> list1 = Arrays.asList(arr).stream().map(String::valueOf).toList();
+        System.out.println(list1);
 
         // Matrix or 2D Array
         int arr2[][] = new int[][]{{1,2,3},{4,5,6}};
