@@ -1,3 +1,4 @@
+package Questions;
 import java.util.*;
 
 public class Q15 {
@@ -13,5 +14,6 @@ public class Q15 {
         for (String name : studentNames) {
             System.out.println(name);
         }
+        scanner.close();
     }
 }

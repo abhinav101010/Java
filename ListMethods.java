@@ -3,7 +3,7 @@ import java.util.*;
 public class ListMethods {
     public static void main(String[] args) {
         List<Integer> list = List.of(1, 2, 3, 4, 5);
-        List<Integer> list3 = Arrays.asList(1, 2, 3);
+        // List<Integer> list3 = Arrays.asList(1, 2, 3);
         System.err.println(list);
 
         List<Integer> list2 = new ArrayList<>();

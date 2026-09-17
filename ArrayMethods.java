@@ -3,6 +3,9 @@ import java.util.*;
 public class ArrayMethods {
     public static void main(String[] args) {
         int arr[] = {10,5,8,12,3,6};
+        int arr2[] = {10,5,8,12,3,6};
+        arr = Arrays.copyOf(arr, arr.length + arr2.length);
+        System.arraycopy(arr2, 0, arr, arr.length - arr2.length, arr2.length);
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
         }

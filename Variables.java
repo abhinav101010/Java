@@ -39,7 +39,7 @@ public class Variables {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
 
-        HashMap<Object, Object> objMap = new HashMap<>();
+        Map<Object, Object> objMap = new HashMap<>();
         objMap.put("a", 1);
         objMap.put(2, 2);
         objMap.put(3, true);

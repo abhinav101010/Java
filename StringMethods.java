@@ -109,7 +109,7 @@ public class StringMethods {
         
         char charAt = str.charAt(7);
         System.out.println("Char at index 7: " + charAt);
-        
+
         int indexOf = str.indexOf("World");
         System.out.println("Index of 'World': " + indexOf);
         

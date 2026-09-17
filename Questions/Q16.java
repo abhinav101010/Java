@@ -1,3 +1,5 @@
+package Questions;
+
 import java.util.Scanner;
 
 public class Q16 {
@@ -12,6 +14,7 @@ public class Q16 {
         }
         System.out.println("Sum: "+sum);
         System.out.println("Average: "+sum/n);
+        scanner.close();
         
         // sum
         // for (int i = 0; i < n; i++) {
